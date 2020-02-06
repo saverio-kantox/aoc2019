@@ -1,0 +1,12 @@
+{application,aoc2019,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"aoc2019"},
+              {modules,['Elixir.Aoc.Intcode','Elixir.Aoc.Intcode.Commands',
+                        'Elixir.Aoc.Intcode.IO','Elixir.Aoc.Intcode.Language',
+                        'Elixir.Aoc.Intcode.Runner','Elixir.Aoc.Intcode.Tape',
+                        'Elixir.Aoc.Sequencer','Elixir.Aoc2019',
+                        'Elixir.Day01','Elixir.Day02','Elixir.Day03',
+                        'Elixir.Day04','Elixir.Day05','Elixir.Day07',
+                        'Elixir.Day16']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
